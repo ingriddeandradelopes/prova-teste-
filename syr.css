@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+*{
+  margin: 0;
+}
+
+body{
+  font-family: "Zen Dots", sans-serif;
+}
+
+nav{
+  margin: 0;
+  background-color: #000000;
+}
+
+.nav__container{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.nav__container img{
+  height: 90px;
+  width: 90px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.nav__container ul{
+  display: flex;
+  list-style: none;
+  justify-content: stretch;
+  color: white;
+}
+
+.nav__section{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav__container li{
+  margin: 2rem;
+  cursor: pointer;
+}
+
+.box{
+  display: flex;
+  margin: 20px;
+}
+
+.box .text-section{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+footer{
+  margin-top: 20px;
+  display: flex;
+  background-color: #000000;
+  color: white;
+  flex-direction: column;
+}
+
+footer ul{
+  list-style: none;
+}
+
+li{
+  margin: 10px 0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer__section{
+  padding: 20px;
+  display: flex;  
+  justify-content: space-evenly;
+}
+
+.copy{
+  margin-top: 20px;
+  text-align: right;
+}
